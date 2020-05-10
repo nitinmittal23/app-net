@@ -1,0 +1,36 @@
+<% include ../partials/header %>
+
+<div class="container">
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Welcome to APPY-NET!</h1>
+            <p>View events from all over the world</p>
+            <p>
+                <a class="btn btn-primary btn-large" href="/events/new"> Add new Event</a>
+            </p>
+        </div>
+    </div>
+    <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+
+        <% events.forEach(function (event) { %>
+        <div class="col-md-3 col-sm-6 col-lg-3">
+
+            <div class="thumbnail">
+                <img style="max-height: 140px;" src="<%= event.image %>" alt="">
+                <div class="caption">
+                    <h4><%= event.name%></h4>
+                </div>
+                <div class="caption">
+                    <h4><%= event.date%></h4>
+                </div>
+                <p>
+                    <a href="/events/<%= event._id %>" class="btn btn-primary">More Info</a>
+                </p>
+            </div>
+        </div>
+        <% }); %>
+    </div>
+
+</div>
+
+<% include ../partials/footer %>
