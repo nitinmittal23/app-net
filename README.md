@@ -1,2 +1,1 @@
-# app-net
 # Appy-net
