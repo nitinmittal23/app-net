@@ -1,4 +1,4 @@
-<% include ../partials/header %>
+<%- include ("../partials/header") %>
 
 <div class="container">
     <div class="jumbotron">
@@ -19,8 +19,6 @@
                 <img style="max-height: 140px;" src="<%= event.image %>" alt="">
                 <div class="caption">
                     <h4><%= event.name%></h4>
-                </div>
-                <div class="caption">
                     <h4><%= event.date%></h4>
                 </div>
                 <p>
@@ -33,4 +31,4 @@
 
 </div>
 
-<% include ../partials/footer %>
+<%- include ("../partials/footer") %>

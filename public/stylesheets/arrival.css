@@ -35,22 +35,22 @@ body {
     animation: imageAnimation 50s linear infinite;
 }
 .slideshow li:nth-child(1) {
-    background-image: url(https://images5.alphacoders.com/555/thumb-1920-555700.jpg)
+    background-image: url(https://images8.alphacoders.com/802/thumb-1920-802073.jpg)
 }
 .slideshow li:nth-child(2) {
-    background-image: url(http://i.imgur.com/SBEmFpv.jpg);
+    background-image: url(https://images3.alphacoders.com/673/673329.jpg);
     animation-delay: 10s;
 }
 .slideshow li:nth-child(3) {
-    background-image: url(http://i.imgur.com/emvhOnb.jpg);
+    background-image: url(https://images3.alphacoders.com/997/997166.jpg);
     animation-delay: 20s;
 }
 .slideshow li:nth-child(4) {
-    background-image: url(https://i.ytimg.com/vi/fB5x4DPTgp4/maxresdefault.jpg);
+    background-image: url(https://images8.alphacoders.com/829/thumb-1920-829025.jpg);
     animation-delay: 30s;
 }
 .slideshow li:nth-child(5) {
-    background-image: url(http://i.imgur.com/TVGe0Ef.jpg);
+    background-image: url(https://images3.alphacoders.com/606/thumb-1920-606500.jpg);
     animation-delay: 40s;
 }
 @keyframes imageAnimation {
